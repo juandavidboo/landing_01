@@ -1,0 +1,53 @@
+.aside-wrapper {
+	padding: 25px 20px;
+	background-color: #ebebeb;
+	margin: 0 auto 90px auto;
+	width: 100%;
+
+	@media (min-width: $md) {
+		width: 270px;
+	}
+
+	.content-img {
+		display: block;
+		margin: auto;
+	}
+
+	.content-text {
+		
+		h2 {
+			color: $color-3;
+			font-size: 20px;
+			margin: 20px 0 10px 0;
+		}
+
+		p, ul {
+			color: $color-2;
+			font-size: 15px;
+			line-height: 20px;
+			margin-bottom: 15px;
+		}
+
+		ul {margin:0;
+			padding:0 0 0 20px;
+			list-style: none;
+		}
+
+		ul li::before {
+			content: "\2022";
+			//background: url(img/bullet.png);
+			color: $color-3;
+			font-size: 18px;
+			font-weight: bold;
+			display: inline-block; 
+			position: absolute;
+			left: -20px;
+		  }
+
+		ul li {
+			//margin-bottom: 20px;
+			padding-left: 0px;
+			position: relative;
+		}
+	}
+}
