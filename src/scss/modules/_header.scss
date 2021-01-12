@@ -12,21 +12,26 @@
 			margin-bottom: 15px;
 		}		
 	}
-
-	
 		
-		p {
-			color: $color-2;
-			font-size: 17px;
-			line-height: 21px;
-			margin-bottom: 10px;
-	
-			@media (min-width: $xs) {
-				font-size: 16px;
-				line-height: 18px;
-				margin-top:8px;
-				margin-bottom: 15px;
-			}
-		}	
-	
+	p {
+		color: $color-2;
+		font-size: 17px;
+		line-height: 21px;
+		margin-bottom: 10px;
+
+		@media (min-width: $xs) {
+			font-size: 16px;
+			line-height: 18px;
+			margin-top:8px;
+			margin-bottom: 15px;
+		}
+	}	
+	/*.button {
+		width: 100%;
+		text-align: center;
+
+		@media (min-width: $xs) {
+			width: auto;
+		}
+	}*/
 }

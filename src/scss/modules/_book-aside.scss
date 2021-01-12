@@ -11,6 +11,11 @@
 	.content-img {
 		display: block;
 		margin: auto;
+		width: 96%;
+
+		@media (min-width: $xs) {
+			width: 201px;
+		}
 	}
 
 	.content-text {
